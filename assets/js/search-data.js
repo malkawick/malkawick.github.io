@@ -456,6 +456,11 @@ ninja.data = [{
           description: "Ground Station UI and LoRA communication for a high-altitude weather balloon.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/1_phoenix/";
+            },},{id: "projects-smart-hiking-pole",
+          title: 'Smart Hiking Pole',
+          description: "ESP32-based smart hiking pole integrating GPS and IMU sensors.",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/2_hiking_pole/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
