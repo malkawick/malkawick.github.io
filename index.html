@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malka Wickramarathna</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 2rem;
+            font-size: 16px;
+        }
+        h1 { font-size: 2.2rem; margin-bottom: 0.5rem; }
+        h2 { font-size: 1.4rem; border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-top: 2rem; }
+        a { color: #0366d6; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        /* Navigation Header */
+        .header {
+            display: flex; justify-content: space-between; align-items: center;
+            border-bottom: 1px solid #eaeaea; padding-bottom: 1rem; margin-bottom: 2rem;
+        }
+        .header-name { font-weight: bold; font-size: 1.1rem; }
+        .nav a { margin-left: 20px; font-weight: 500; color: #555; }
+        .nav a:hover { color: #0366d6; }
+
+        /* Profile Section */
+        .profile-container { display: flex; align-items: flex-start; gap: 2rem; margin-bottom: 2rem; }
+        .bio { flex: 1; }
+        .profile-pic { width: 220px; height: 220px; border-radius: 50%; object-fit: cover; border: 1px solid #ddd; }
+
+        /* Lists */
+        ul { padding-left: 20px; }
+        li { margin-bottom: 12px; }
+        .title { font-weight: bold; }
+        .meta { font-style: italic; color: #666; font-size: 0.95em; }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-name">Malka Wickramarathna</div>
+        <div class="nav">
+            <a href="#about">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#awards">Awards</a>
+            <a href="assets/pdf/malka_cv.pdf" target="_blank">CV</a> 
+        </div>
+    </div>
+
+    <div class="profile-container" id="about">
+        <div class="bio">
+            <h1>Malka Wickramarathna</h1>
+            <p>I am a first-year undergraduate student at the <strong>University of Moratuwa</strong>, pursuing a BSc. (Hons.) in Electronic and Telecommunication Engineering, where I currently maintain a 4.0 GPA.</p>
+            
+            <p>My technical interests span embedded systems, telecommunications, and hardware design. I enjoy thinking about the interplay between hardware prototyping and software integration. My current research and engineering goals are focused on building reliable systems, from smart navigation tools to ground station interfaces for high-altitude weather balloons.</p>
+            
+            <p>Before my university studies, I attended Royal College, Colombo, where I ranked 5th in the district for the G.C.E. Advanced Level Examination and received the Presidential Appreciation Award.</p>
+
+            <p>
+                <strong>Email:</strong> <a href="mailto:wickramarathnamp.24@uom.lk">wickramarathnamp.24@uom.lk</a> <br>
+                <strong>Location:</strong> Colombo, Sri Lanka
+            </p>
+        </div>
+        <img src="profile.jpg" alt="Malka Wickramarathna" class="profile-pic" onerror="this.style.display='none'"> 
+    </div>
+
+    <div class="section" id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>
+                <span class="title">University of Moratuwa</span> (2025 &ndash; 2029 Expected)<br>
+                BSc. (Hons.) Electronic and Telecommunication Engineering<br>
+                <span class="meta">Current GPA: 4.0/4.0</span>
+            </li>
+            <li>
+                <span class="title">Royal College, Colombo</span> (2022 &ndash; 2024)<br>
+                <span class="meta">G.C.E. Advanced Level 2023: Ranked 5th in District and 14th in Island with Distinctions in Mathematics, Physics, Chemistry, and General English.</span>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="projects">
+        <h2>Technical Projects</h2>
+        <ul>
+            <li>
+                <span class="title">Project Phoenix (CubeSatellite)</span><br>
+                <span class="meta">Electronic Club of UoM in collaboration with SEDS Mora | Oct 2025 – Present</span>
+                <ul>
+                    <li>Developed the Ground Station User Interface (UI) for a high-altitude weather balloon using Python and HTML for real-time telemetry visualization.</li>
+                    <li>Collaborated in the validation and testing of the LoRA-based communication sub-system.</li>
+                </ul>
+            </li>
+            <li>
+                <span class="title">Smart Hiking Pole</span><br>
+                <span class="meta">Group project of 4 members | Sept 2025 – Dec 2025</span>
+                <ul>
+                    <li>Designed an ESP32-based smart hiking pole integrating GPS and IMU sensors for location tracking in extreme environments.</li>
+                    <li>Developed a path-retracing algorithm utilizing logged GPS coordinates to generate return routes for users.</li>
+                    <li>Engineered a functional breadboard prototype, addressing technical challenges in signal acquisition and integration.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="awards">
+        <h2>Selected Awards & Honors</h2>
+        <ul>
+            <li><span class="title">Presidential Appreciation Award:</span> Awarded by the President of Sri Lanka to the highest-ranking students in the country for demonstrating exceptional academic aptitude (District Rank 5).</li>
+            <li><span class="title">Dr. J. Nanayakkara Memorial Prize:</span> Awarded for achieving the second-highest score in Physics within the 2023 Advanced Level cohort at Royal College, Colombo.</li>
+            <li><span class="title">Cameron Samarasinghe Memorial Prize:</span> Awarded for outstanding performance in Combined Mathematics.</li>
+            <li><span class="title">Royal College OBA (North America) Prizes:</span> 2nd Place in Physical Science Stream and 3rd Place in Overall Performance.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="skills">
+        <h2>Skills & Interests</h2>
+        <p><strong>Programming & Engineering:</strong> Python, C/C++, HTML, LaTeX, MATLAB, Altium Designer.</p>
+        <p><strong>Interests:</strong> Classical Piano, Swimming.</p>
+    </div>
+
+</body>
+</html>
